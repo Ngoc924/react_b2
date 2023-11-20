@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import FunctionComponent from './DemoComponent/FunctionComponent';
+import ClassComponent from './DemoComponent/ClassComponent';
+import DemoState from './DemoState/DemoState';
+import DataBinding from './DataBinding/DataBinding';
+import Ex_Car from './Ex_Car/Ex_Car';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
+import Ex_ from './Ex_/Ex_Model';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* lý thuyết */}
+      {/* <FunctionComponent/>
+      <ClassComponent/> */}
+      {/* <DemoState/> */}
+      {/* <DataBinding/> */}
+      {/* <RenderWithMap /> */}
+       
+       {/* bài tập */}
+       {/* <Ex_Car /> */}
+       <Ex_/>
     </div>
   );
 }
