@@ -1,9 +1,9 @@
 .button-image {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
+    width: 150px; 
+    height: auto;
   }
 .model-image{
-    width: 280px; /* Adjust the width as needed */
+    width: 280px; 
     height: auto;
 }
 
@@ -15,11 +15,11 @@
   .selected-glasses-image {
     width: 150px;
     position: absolute;
-    top: 90px; /* Adjust the top position as needed */
-    left: 65px; /* Adjust the left position as needed */
-    z-index: 1; /* Ensure the glasses image appears on top of the model image */
+    top: 90px; 
+    left: 65px; 
+    z-index: 1; 
     opacity: 2;
   }
   
-  /* Add any other styles as needed */
+ 
   

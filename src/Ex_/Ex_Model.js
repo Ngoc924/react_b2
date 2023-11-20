@@ -11,12 +11,12 @@ const glassesData = [
   { id: 7, image: 'v7.png' },
   { id: 8, image: 'v8.png' },
   { id: 9, image: 'v9.png' },
-  // Add more glasses data as needed
+
 ];
 
 export default class GlassesApp extends Component {
   state = {
-    selectedGlasses: glassesData[0], // Default selected glasses
+    selectedGlasses: glassesData[0], 
   };
 
   handleGlassesChange = (selectedGlasses) => {
@@ -28,7 +28,7 @@ export default class GlassesApp extends Component {
     return (
       <div>
         <div className="model-container">
-          {/* Model displaying selected glasses */}
+     
           <img
             src={this.imgURL}
             alt=''
@@ -41,7 +41,7 @@ export default class GlassesApp extends Component {
             />
         </div>
         <div className="glasses-list">
-  {/* Glasses selection buttons */}
+
   {glassesData.map((glasses) => (
     <button
       key={glasses.id}
